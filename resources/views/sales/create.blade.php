@@ -5,10 +5,6 @@
         <div class="card my-4">
             <div class="card-header d-flex justify-content-between">
                 <h2>New Sale Entry</h2>
-                {{-- @if (session('success'))
-                    <span class="alert alert-success">{{ session('success') }}</span>
-                @endif --}}
-
                 @if (session('error'))
                     <div class="alert alert-danger">{{ session('error') }}</div>
                 @endif

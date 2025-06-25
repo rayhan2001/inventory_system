@@ -11,6 +11,7 @@ class Sale extends Model
         'received_amount',
         'due_amount',
         'total_amount',
+        'vat',
         'sale_date',
     ];
 
